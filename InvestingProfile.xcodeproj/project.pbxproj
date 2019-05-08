@@ -14,6 +14,9 @@
 		FB7F03522281C616005D2789 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB7F03502281C616005D2789 /* LaunchScreen.storyboard */; };
 		FB7F035D2281C616005D2789 /* InvestingProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F035C2281C616005D2789 /* InvestingProfileTests.swift */; };
 		FB7F03682281C616005D2789 /* InvestingProfileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F03672281C616005D2789 /* InvestingProfileUITests.swift */; };
+		FB7F03762281C700005D2789 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F03752281C700005D2789 /* Model.swift */; };
+		FB7F03782281C7CA005D2789 /* Investidor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F03772281C7CA005D2789 /* Investidor.swift */; };
+		FB7F037C2281C8FC005D2789 /* Perguntas.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F037B2281C8FC005D2789 /* Perguntas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FB7F03632281C616005D2789 /* InvestingProfileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvestingProfileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7F03672281C616005D2789 /* InvestingProfileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvestingProfileUITests.swift; sourceTree = "<group>"; };
 		FB7F03692281C616005D2789 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB7F03752281C700005D2789 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FB7F03772281C7CA005D2789 /* Investidor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Investidor.swift; sourceTree = "<group>"; };
+		FB7F037B2281C8FC005D2789 /* Perguntas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perguntas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				FB7F034E2281C616005D2789 /* Assets.xcassets */,
 				FB7F03502281C616005D2789 /* LaunchScreen.storyboard */,
 				FB7F03532281C616005D2789 /* Info.plist */,
+				FB7F03752281C700005D2789 /* Model.swift */,
+				FB7F03772281C7CA005D2789 /* Investidor.swift */,
+				FB7F037B2281C8FC005D2789 /* Perguntas.swift */,
 			);
 			path = InvestingProfile;
 			sourceTree = "<group>";
@@ -256,7 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7F03762281C700005D2789 /* Model.swift in Sources */,
 				FB7F034A2281C614005D2789 /* ViewController.swift in Sources */,
+				FB7F037C2281C8FC005D2789 /* Perguntas.swift in Sources */,
+				FB7F03782281C7CA005D2789 /* Investidor.swift in Sources */,
 				FB7F03482281C614005D2789 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

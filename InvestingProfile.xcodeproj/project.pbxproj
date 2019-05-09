@@ -84,6 +84,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB6AFB68228459670007000D /* Views Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FB6AFB65228456870007000D /* AskChoicesViewController.swift */,
+				FB6AFB64228456870007000D /* FinalResultViewController.swift */,
+				FB7F03492281C614005D2789 /* ViewController.swift */,
+			);
+			path = "Views Controller";
+			sourceTree = "<group>";
+		};
+		FB6AFB692284599B0007000D /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				FB7F03752281C700005D2789 /* Model.swift */,
+				FB7F03772281C7CA005D2789 /* Investidor.swift */,
+				FB7F037B2281C8FC005D2789 /* Perguntas.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		FB7F033B2281C614005D2789 = {
 			isa = PBXGroup;
 			children = (
@@ -107,17 +127,13 @@
 		FB7F03462281C614005D2789 /* InvestingProfile */ = {
 			isa = PBXGroup;
 			children = (
-				FB6AFB65228456870007000D /* AskChoicesViewController.swift */,
-				FB6AFB64228456870007000D /* FinalResultViewController.swift */,
+				FB6AFB68228459670007000D /* Views Controller */,
+				FB6AFB692284599B0007000D /* Class */,
 				FB7F03472281C614005D2789 /* AppDelegate.swift */,
-				FB7F03492281C614005D2789 /* ViewController.swift */,
 				FB7F034B2281C614005D2789 /* Main.storyboard */,
 				FB7F034E2281C616005D2789 /* Assets.xcassets */,
 				FB7F03502281C616005D2789 /* LaunchScreen.storyboard */,
 				FB7F03532281C616005D2789 /* Info.plist */,
-				FB7F03752281C700005D2789 /* Model.swift */,
-				FB7F03772281C7CA005D2789 /* Investidor.swift */,
-				FB7F037B2281C8FC005D2789 /* Perguntas.swift */,
 			);
 			path = InvestingProfile;
 			sourceTree = "<group>";

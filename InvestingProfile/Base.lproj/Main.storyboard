@@ -92,7 +92,7 @@
                         <outlet property="botao2" destination="ZCq-pZ-EGy" id="FdJ-sT-ggx"/>
                         <outlet property="botao3" destination="FEG-O3-cdQ" id="UeW-wD-d1K"/>
                         <outlet property="pergunta" destination="gEU-DY-2M1" id="7dU-tf-pxf"/>
-                        <segue destination="V10-dd-UfZ" kind="show" identifier="pintaria" id="fTp-3p-3KT"/>
+                        <segue destination="V10-dd-UfZ" kind="show" identifier="result" id="fTp-3p-3KT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vsi-81-AH1" userLabel="First Responder" sceneMemberID="firstResponder"/>

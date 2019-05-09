@@ -19,7 +19,7 @@ class AskChoicesViewController: UIViewController {
         model.pontuacao[0] += 1
         number += 1
         if number == (model.perguntas.count) {
-            performSegue(withIdentifier: "pintaria", sender: "nil")
+            performSegue(withIdentifier: "result", sender: "nil")
             return
         }
         pergunta.text = model.perguntas[number].pergunta
@@ -33,7 +33,7 @@ class AskChoicesViewController: UIViewController {
         model.pontuacao[1] += 1
         number += 1
         if number == (model.perguntas.count) {
-            performSegue(withIdentifier: "pintaria", sender: "nil")
+            performSegue(withIdentifier: "result", sender: "nil")
             return
         }
         pergunta.text = model.perguntas[number].pergunta
@@ -49,7 +49,7 @@ class AskChoicesViewController: UIViewController {
         model.pontuacao[2] += 1
         number += 1
         if number == (model.perguntas.count) {
-            performSegue(withIdentifier: "pintaria", sender: "nil")
+            performSegue(withIdentifier: "result", sender: "nil")
             return
         }
         pergunta.text = model.perguntas[number].pergunta
@@ -59,11 +59,7 @@ class AskChoicesViewController: UIViewController {
         
     }
    
-    @IBAction func chamarViewController() {
-    let storyBoard = UIStoryboard(name: "FinalResultViewController", bundle: nil)
-        let novoViewController = storyBoard.instantiateViewController(withIdentifier: "ViewViaCodigo")
-        self.present(novoViewController, animated: true, completion: nil)
-    }
+    
     
     
     

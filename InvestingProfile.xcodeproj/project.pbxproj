@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4B421B2285A06900881493 /* InicialScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B421A2285A06900881493 /* InicialScreenViewController.swift */; };
 		FB6AFB66228456870007000D /* FinalResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AFB64228456870007000D /* FinalResultViewController.swift */; };
 		FB6AFB67228456870007000D /* AskChoicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6AFB65228456870007000D /* AskChoicesViewController.swift */; };
 		FB7F03482281C614005D2789 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7F03472281C614005D2789 /* AppDelegate.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB4B421A2285A06900881493 /* InicialScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InicialScreenViewController.swift; sourceTree = "<group>"; };
 		FB6AFB64228456870007000D /* FinalResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalResultViewController.swift; sourceTree = "<group>"; };
 		FB6AFB65228456870007000D /* AskChoicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AskChoicesViewController.swift; sourceTree = "<group>"; };
 		FB7F03442281C614005D2789 /* InvestingProfile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InvestingProfile.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +92,7 @@
 				FB6AFB65228456870007000D /* AskChoicesViewController.swift */,
 				FB6AFB64228456870007000D /* FinalResultViewController.swift */,
 				FB7F03492281C614005D2789 /* ViewController.swift */,
+				FB4B421A2285A06900881493 /* InicialScreenViewController.swift */,
 			);
 			path = "Views Controller";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				FB6AFB67228456870007000D /* AskChoicesViewController.swift in Sources */,
 				FB7F03762281C700005D2789 /* Model.swift in Sources */,
 				FB7F034A2281C614005D2789 /* ViewController.swift in Sources */,
+				FB4B421B2285A06900881493 /* InicialScreenViewController.swift in Sources */,
 				FB7F037C2281C8FC005D2789 /* Perguntas.swift in Sources */,
 				FB7F03782281C7CA005D2789 /* Investidor.swift in Sources */,
 				FB7F03482281C614005D2789 /* AppDelegate.swift in Sources */,

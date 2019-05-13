@@ -79,7 +79,7 @@ class Model{
         
         Perguntas(pergunta: "Considerando seus rendimentos regulares, qual a porcentagem você pretende reservar para aplicações financeiras?",
                   opcao1: "No máximo 25%",
-                  opcao2: "Entre 25,01 e 50%",
+                  opcao2: "Entre 25 e 50%",
                   opcao3: "Acima de 50%",
                   opcao4: "",
                   opcao5: "",

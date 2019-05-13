@@ -8,6 +8,8 @@ class AskChoicesViewController: UIViewController {
     @IBOutlet weak var botao1: UIButton!
     @IBOutlet weak var botao2: UIButton!
     @IBOutlet weak var botao3: UIButton!
+    @IBOutlet weak var perguntaView: UIView!
+    
     
     let botoes = [botao1, botao2, botao3]
     
@@ -42,9 +44,6 @@ class AskChoicesViewController: UIViewController {
         botao3.setTitle(model.perguntas[number].opcao3, for: .normal)
         
     }
-    
-    
-    
     @IBAction func botao3(_ sender: Any) {
         model.pontuacao[2] += 1
         number += 1
@@ -58,12 +57,6 @@ class AskChoicesViewController: UIViewController {
         botao3.setTitle(model.perguntas[number].opcao3, for: .normal)
         
     }
-   
-    
-    
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -82,8 +75,34 @@ class AskChoicesViewController: UIViewController {
         botao2.clipsToBounds = true
         botao3.clipsToBounds = true
         
-        botao1.layer.cornerRadius = 12
-        botao2.layer.cornerRadius = 12
-        botao3.layer.cornerRadius = 12
+        
+        botao1.titleLabel?.textAlignment = NSTextAlignment.center
+        botao2.titleLabel?.textAlignment = NSTextAlignment.center
+        botao3.titleLabel?.textAlignment = NSTextAlignment.center
+        
+        botao1.backgroundColor = .clear
+        botao1.layer.cornerRadius = 25
+        botao1.layer.borderWidth = 2
+        botao1.layer.borderColor = UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ).cgColor
+        botao1.setTitleColor(UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ), for: .normal)
+        
+        botao2.backgroundColor = .clear
+        botao2.layer.cornerRadius = 25
+        botao2.layer.borderWidth = 2
+        botao2.layer.borderColor = UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ).cgColor
+        botao2.setTitleColor(UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ), for: .normal)
+        
+        botao3.backgroundColor = .clear
+        botao3.layer.cornerRadius = 25
+        botao3.layer.borderWidth = 2
+        botao3.layer.borderColor = UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ).cgColor
+        botao3.setTitleColor(UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ), for: .normal)
+        
+       
+        perguntaView.layer.cornerRadius = 30
+        perguntaView.layer.borderWidth = 1
+        perguntaView.layer.borderColor = UIColor.init(displayP3Red: 28/255, green: 119/255, blue: 27/255 , alpha: 1.0 ).cgColor
+        
+        
     }
 }
